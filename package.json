@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  
+  "homepage": "https://ftees.github.io/Portfolio-By-React/",
   "dependencies": {
     "@ramonak/react-progress-bar": "^3.1.0",
     "@testing-library/jest-dom": "^5.11.10",
