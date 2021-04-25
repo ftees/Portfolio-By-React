@@ -17,7 +17,7 @@ function App() {
         <About id="about"></About>
         <Service id="service"></Service>
         <Skill id="skill"></Skill>
-        <Experience id="exp"></Experience>
+        <Experience id="experience"></Experience>
         <Project id="prj"></Project>
     </div>
     

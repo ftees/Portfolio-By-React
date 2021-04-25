@@ -43,7 +43,7 @@ const header = () => {
                 </li>
                 <li class="nav-item">
                 <Link 
-                        to="skill"
+                        to="skill-contain"
                         spy={true}
                         smooth={true}
                         offset={-70}
@@ -54,7 +54,7 @@ const header = () => {
                 </li>
                 <li class="nav-item">
                 <Link 
-                        to="exp"
+                        to="experience-contain"
                         spy={true}
                         smooth={true}
                         offset={-70}
@@ -64,7 +64,7 @@ const header = () => {
                 </li>
                 <li class="nav-item">
                 <Link 
-                        to="prj"
+                        to="project-contain"
                         spy={true}
                         smooth={true}
                         offset={-70}
