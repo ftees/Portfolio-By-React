@@ -15,7 +15,7 @@ const banner = () => {
              loop
             />
             </div>
-            <button className="btn btn-download">Download CV</button>
+            <button className="btn btn-download"><a href="FU_NguyenPhamTien_Java_FPTSoftwareHoaLac.pdf">Download CV</a></button>
         </div>
     )
 }

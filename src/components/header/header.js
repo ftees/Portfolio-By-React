@@ -73,7 +73,14 @@ const header = () => {
                   </Link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact me</a>
+                <Link 
+                        to="contact-contain"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={700}>
+                    <a class="nav-link" href="#">Contact me <span class="sr-only">(current)</span></a>
+                  </Link>
                 </li>
                 </ul>
             </div>

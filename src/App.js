@@ -7,6 +7,8 @@ import Service from './components/service/service';
 import Skill from './components/skills/skill';
 import Experience from './components/experience/experience';
 import Project from './components/project/project';
+import Contact from './components/contact/contact';
+import Footer from './components/footer/footer';
 function App() {
   
   return (
@@ -19,6 +21,8 @@ function App() {
         <Skill id="skill"></Skill>
         <Experience id="experience"></Experience>
         <Project id="prj"></Project>
+        <Contact id="contact"></Contact>
+        <Footer></Footer>
     </div>
     
   );

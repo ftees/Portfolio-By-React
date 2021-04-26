@@ -18,11 +18,15 @@
 .intro-typed{
     font-family: 'Pacifico', cursive;
     color: #fff;
-    font-size:80px;
+    font-size:70px;
     
 }
+.btn-download a{
+    text-decoration:none;
+    color: #DF184A;
+}
 .btn-download{
-    width: 200px;
+    width: 160px;
     height: 50px;
     font-weight: bold;
     color: #DF184A;
@@ -37,11 +41,36 @@
     color: #fff;
     border: 3px solid #fff;
 }
+.btn-download:hover a{
+    color: #fff;
+    
+}
+
 @media screen and (max-width: 600px) {
     .intro-typed{
         font-family: 'Pacifico', cursive;
         color: #fff;
-        font-size:20px;
+        font-size:20px; 
+    }
+    .btn-download{
+        width: 120px;
+        height: 40px;
+        font-weight: bold;
+        font-size: 13px;
+        color: #DF184A;
+        background-color: #fff;
+        border: 3px solid #DF184A;
+        position: relative;
+        top: -10%;
+        left: 3%;
+    }
+    
+  } 
+  @media screen and (max-width:  992px) {
+    .intro-typed{
+        font-family: 'Pacifico', cursive;
+        color: #fff;
+        font-size:40px;
         
     }
     .btn-download{
@@ -51,9 +80,8 @@
         color: #DF184A;
         background-color: #fff;
         border: 3px solid #DF184A;
-        position: relative;
-        bottom: 0;
-        left: 3%;
+        font-size: 16px;
+        
         
     }
     

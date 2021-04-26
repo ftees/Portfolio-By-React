@@ -1,0 +1,53 @@
+.contact-contain{
+    width: 100%;
+    background-color:#222222;
+    margin-top: 3rem;
+
+}
+.contact-contain h2{
+    color: #fff;
+}
+.contact-form{
+    width: 70%;
+    margin:auto;
+    text-align: start;
+    
+}
+label{
+    color: #fff;
+    font-family: "Helvetica Neue";
+    font-size:20px;
+    font-weight:bold;
+    margin-top: 1em;
+    
+}
+.txt, .txtMess{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  font-size: 1.3rem;
+  border-radius: 15px;
+  border: 3px solid #fff;
+  color: #10182F;
+}
+.btnSubmit{
+    width: 20%;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius:10px;
+    margin-top:2rem;
+    background: #ff9966;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    color:#fff;
+    margin-bottom: 2rem;
+    
+}
+.btnSubmit:hover{
+    background: #7F7FD5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+
+}
