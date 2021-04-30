@@ -51,3 +51,11 @@ label{
 
 
 }
+
+@media screen and (max-width: 660px){
+     .btnSubmit{
+        width: 50%;
+        margin: auto;
+        font-size: 13px;
+     }
+}
