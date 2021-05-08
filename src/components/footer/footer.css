@@ -33,6 +33,13 @@
     .footer{
         display: flex;
         flex-direction:column;
-        font-size:13px;
+        
+    }
+    .footer h3{
+        font-size: 22px;
+        margin-bottom: 2rem;
+    }
+    .footer a{
+        font-size: 18px;
     }
 }
