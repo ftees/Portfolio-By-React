@@ -9,7 +9,7 @@ const experience = () => {
           id: 1,
           title: "FPT University",
           role: "Student",
-          description: "Majoring in software engineering, learn some program language and technology such as C, Java, C#, HTML, CSS, SQL. Doing some projects about E-News, E-Commerce",
+          description: "Majoring in software engineering, learn programming language and technology such as C, Java, C#, HTML, CSS, SQL Server. Doing some projects about E-News, E-Commerce",
           date: "September 2017 - Present",
          
          },

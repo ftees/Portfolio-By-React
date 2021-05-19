@@ -8,9 +8,9 @@ const project = () => {
         link:"https://ftees.github.io/Portfolio-By-React/"
         },
     {
-        title: "E-Commerce Website with Angular",
-        img: "ecm.png",
-        link:"https://angular-first-demo-je45fqz9u-ftees.vercel.app/AngularFirstDemo/home"
+        title: "Weather App with React",
+        img: "weather.jpg",
+        link:"https://ftees.github.io/Weather-App-by-React/"
         },
         {
             title: "E-Commerce Website with Angular",
