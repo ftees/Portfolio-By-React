@@ -6,6 +6,7 @@
 }
 .contact-contain h2{
     color: #fff;
+    padding-top: 2rem
 }
 .contact-form{
     width: 70%;
@@ -15,7 +16,6 @@
 }
 label{
     color: #fff;
-    font-family: "Helvetica Neue";
     font-size:20px;
     font-weight:bold;
     margin-top: 1em;
@@ -31,8 +31,10 @@ label{
 }
 .btnSubmit{
     width: 20%;
+    height: 36px; 
     font-size: 18px;
     font-weight: bold;
+    border: 1px solid #fff;
     border-radius:10px;
     margin-top:2rem;
     background: #ff9966;  /* fallback for old browsers */

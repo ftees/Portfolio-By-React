@@ -4,7 +4,7 @@ import Typed from 'react-typed';
 const banner = () => {
     return (
         <div className="banner">
-            <img src="banner2.jpg"></img>
+            <img src="banner3.jpg"></img>
             <div className="intro">
            
             <Typed
@@ -15,7 +15,7 @@ const banner = () => {
              loop
             />
             </div>
-            <button className="btn btn-download"><a href="FU_NguyenPhamTien_Java_FPTSoftwareHoaLac.pdf">Download CV</a></button>
+            
         </div>
     )
 }

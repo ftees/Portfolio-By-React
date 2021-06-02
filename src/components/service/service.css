@@ -1,12 +1,7 @@
 .service{
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
-h2{
-    font-family: 'Pacifico', cursive;
-    color: #10182F;
-    font-size:50px;
-    padding-bottom: 1em;
-}
+
 .listContent{
     width: 90%;
     margin:auto;
@@ -20,7 +15,8 @@ h2{
     padding-top: 5rem;
     margin-left: 3rem;
     border-radius: 15px;
-    background-color:#306BF3;
+    background:linear-gradient(#141E30,#243B55);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .card:hover{
     transform: rotate(5deg);

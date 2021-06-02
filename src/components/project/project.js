@@ -22,12 +22,12 @@ const project = () => {
     return (
         <div className="project-contain">
             <h2>Projects</h2>
-            <div className="list-projects">
+            <div className="list-projects container">
                 {projects.map(item => (
                     <div className="project">
                     <img className="project-background" src={item.img}></img>
                     
-                    <h4>{item.title}</h4>
+                    <h5>{item.title}</h5>
                     <button className="btn-view"><a href={item.link} target="_blank">View</a></button>
                     
                 </div>

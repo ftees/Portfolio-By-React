@@ -3,7 +3,8 @@
 
 }
 .banner img{
-    width:100%
+    width:100%;
+    height:80%;
 }
 .intro{
     position: absolute;
@@ -11,14 +12,14 @@
     left: 25%;
     text-align:center;
     width: 50%;
-    height: 40%;
+    height: 250px;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.5)
 }
 .intro-typed{
     font-family: 'Pacifico', cursive;
     color: #fff;
-    font-size:70px;
+    font-size:60px;
     
 }
 .btn-download a{
@@ -60,6 +61,10 @@
         border: 3px solid #DF184A;
         
     }
+    .intro{
+        width: 50%;
+        height: 40%;
+    }
     
   } 
   @media screen and (max-width:  992px ) {
@@ -68,6 +73,10 @@
         color: #fff;
         font-size:30px;
         
+    }
+    .intro{
+        width: 50%;
+        height: 30%;
     }
     .btn-download{
         width: 140px;

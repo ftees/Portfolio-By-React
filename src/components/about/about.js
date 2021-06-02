@@ -12,6 +12,9 @@ const about = () => {
                 <h1>Nguyễn Phạm Tiến</h1>
                 <p>I'm Fresher Front-end developer, I graduated from FPT University, majoring in software engineering 
                     </p>
+                    <p>Date of birth: 08/10/1999</p>
+                    <p>Location: Ha Noi, Vietnam</p>
+                    <button className="btn btn-download"><a href="FU_NguyenPhamTien_Java_FPTSoftwareHoaLac.pdf">Download CV</a></button>
             </div>
         </div>
         </div>

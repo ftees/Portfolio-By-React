@@ -44,6 +44,7 @@ const experience = () => {
                   </VerticalTimelineElement>
                 )
                 })};
+                
                </VerticalTimeline> 
                  
             </div>

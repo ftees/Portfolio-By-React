@@ -1,12 +1,11 @@
 .experience-contain{
     width:100%;
     background-color:#10182F;
+    
 }
 .experience-contain h2{
-    font-family: 'Pacifico', cursive;
     color: #fff;
-    font-size:50px;
-    padding-bottom: 1em;
+    padding-top: 2rem;
 }
 .date{
     color: #545D7A;
