@@ -9,9 +9,9 @@ const footer = () => {
         <div className="footer">
             <div className="infomation">
                 <h3>Nguyễn Phạm Tiến</h3>
-                <h4><FontAwesomeIcon icon={faCity} /><a>Hà Nội</a></h4>
-                <h4><FontAwesomeIcon icon={faPhone} /><a>0384194762</a></h4>
-                <h4><FontAwesomeIcon icon={faAddressCard} /><a>tiennp8@gmail.com</a></h4>
+                <h4><FontAwesomeIcon icon={faCity} className="icon"/><a>Hà Nội</a></h4>
+                <h4><FontAwesomeIcon icon={faPhone} className="icon"/><a>0384194762</a></h4>
+                <h4><FontAwesomeIcon icon={faAddressCard} className="icon"/><a>tiennp8@gmail.com</a></h4>
             </div>
             <div className="social">
                <h3>Follow me</h3>

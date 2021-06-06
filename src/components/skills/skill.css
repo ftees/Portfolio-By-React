@@ -1,15 +1,14 @@
 .skill-contain{
-    margin-top: 4rem;
     padding-bottom: 6rem;
     background-color: #1f2833;
 }
 .list-Skills{
     width: 68%;
     margin: auto;
-    background: linear-gradient(
-        159deg
-        ,#2d2d3a 0%,#3d3d49 100%);
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-image: url('https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28313.jpg?size=626&ext=jpg');
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgb(31, 124, 116) 0px 20px 30px -10px;
     border-radius: 10px;
 }
 .skill-contain h2{

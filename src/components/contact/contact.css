@@ -1,6 +1,8 @@
 .contact-contain{
     width: 100%;
-    margin-top: 3rem;
+    background-image: url('https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28313.jpg?size=626&ext=jpg');
+    background-position: center;
+    background-size: cover;
 
 }
 .contact-contain h2{
@@ -14,8 +16,8 @@
     
 }
 label{
-    color: #fff;
-    font-size:20px;
+    color: #66fcf1;
+    font-size:18px;
     font-weight:bold;
     margin-top: 1em;
     
@@ -27,6 +29,12 @@ label{
   border-radius: 10px;
   border: 3px solid #fff;
   color: #10182F;
+}
+.txt:focus{
+    box-shadow: rgb(31, 124, 116) 0px 20px 30px -10px;
+}
+.txtMess:focus{
+    box-shadow: rgb(31, 124, 116) 0px 20px 30px -10px;
 }
 .btnSubmit{
     width: 20%;

@@ -4,9 +4,8 @@ import Typed from 'react-typed';
 const banner = () => {
     return (
         <div className="banner">
-            <img src="banner3.jpg"></img>
-            <div className="intro">
-           
+            
+            <div className="intro"> 
             <Typed
              className="intro-typed"
              strings = {["I'm Front-End Developer"]}

@@ -15,7 +15,6 @@ function App() {
     
     <div className="App">
         <Header></Header>
-        <Banner id="banner"></Banner>
         <About id="about"></About>
         <Service id="service"></Service>
         <Skill id="skill"></Skill>

@@ -1,33 +1,41 @@
 .about{
-    padding: 2rem;
-    background-image: url('https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28313.jpg?size=626&ext=jpg');
+    padding: 2rem 0 6rem 0;
+    background-image: url('https://image.freepik.com/free-photo/close-up-image-programer-working-his-desk-office_1098-18707.jpg');
     background-size: cover;
+    background-position: center;
+    margin-top: 50px;
 }
 
 .content{
-    width:90%;
+    width:80%;
     margin:auto;
     height: auto;
-    background: rgba( 102, 252, 241, 0.05 );
-    box-shadow: 10px 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 0.0px );
-    -webkit-backdrop-filter: blur( 0.0px );
+    background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
-    border: 2px solid rgba( 255, 255, 255, 0.18 );
+    border: 1px solid #66fcf1;
     display:flex;
     justify-content:center;
     align-items:center;
     border-radius: 10px;
-    
 }
 .content-img{
     width: 40%;
     margin: auto;
 }
 .content-img img{
-    width: 60%;
+    width: 50%;
     border-radius: 50%;
     border: 2px solid #66fcf1;
+    
+}
+.typed{
+    margin: 2rem 0;
+}
+.intro-typed{
+    font-family: 'Pacifico', cursive;
+    color: #66fcf1;
+    font-size:18px;
+    
     
 }
 .content-intro{
@@ -38,6 +46,7 @@
 }
 .content-intro h1{
     font-family: 'Pacifico', cursive;
+    text-shadow: 3px 5px rgba(0,0,0,0.7);
     color: #fff;
     font-size:50px;
     line-height: 50px;
@@ -45,10 +54,30 @@
 .content-intro p{
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
+    font-style: italic;
     font-size:20px;
     padding-top: 20px;
     width:80%;
     margin:auto;
+}
+.btn-download a{
+    text-decoration:none;
+    color: #fff;
+}
+.btn-download{
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    background:none;
+    border: 3px solid #66fcf1;
+    margin-top: 2rem;
+}
+.btn-download:hover{
+    background-color: #66fcf1;
+    
+}
+.btn-download:hover a{
+    color: #000; 
 }
 @media screen and (max-width: 600px) {
     .content{
@@ -63,6 +92,12 @@
     .content-img img{
         width: 100%;
         margin: 2rem 2rem 0 0;
+    }
+    .btn-download{
+        width: 120px;
+        height: 40px;
+        font-weight: bold;
+        font-size: 13px;
     }
     
   } 

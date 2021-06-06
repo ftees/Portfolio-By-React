@@ -1,19 +1,24 @@
 .service{
-    margin-top: 4rem;
+    background-image: url('https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28313.jpg?size=626&ext=jpg');
+    background-position: center;
+    background-size: cover;
 }
-
+.service h2{
+    color: #66fcf1;
+    padding-top: 2rem;
+}
 .listContent{
     width: 90%;
     margin:auto;
     display:flex;
-    justify-content:center;
+    justify-content:space-around;
     align-items:center;
+    padding: 2rem 0 4rem 0;
 }
 .card{
     width: 300px;
     height: 400px;
     padding-top: 5rem;
-    margin-left: 3rem;
     background: #45a29e;
 }
 .card:hover{

@@ -12,5 +12,6 @@ h2{
   color: #66fcf1;
   font-size:42px;
   padding-bottom: 1em;
+  text-shadow: 3px 5px rgba(0,0,0,0.7);
   font-style: italic;
 }
