@@ -1,40 +1,50 @@
 .about{
-    margin-top: 2em;
-    background-color: #F7F8FC;
+    padding: 2rem;
+    background-image: url('https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28313.jpg?size=626&ext=jpg');
+    background-size: cover;
 }
 
 .content{
     width:90%;
     margin:auto;
     height: auto;
+    background: rgba( 102, 252, 241, 0.05 );
+    box-shadow: 10px 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 10px;
+    border: 2px solid rgba( 255, 255, 255, 0.18 );
     display:flex;
     justify-content:center;
+    align-items:center;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    
 }
 .content-img{
-    width: 50%;
-    margin: 2rem 0;
+    width: 40%;
+    margin: auto;
 }
 .content-img img{
-    width: 70%;
-    border-radius: 10px;
+    width: 60%;
+    border-radius: 50%;
+    border: 2px solid #66fcf1;
+    
 }
 .content-intro{
-    width:50%;
+    width:60%;
     margin-top:2rem;
     padding: 20px 0;
 
 }
 .content-intro h1{
     font-family: 'Pacifico', cursive;
-    color: #545D7A;
+    color: #fff;
     font-size:50px;
     line-height: 50px;
 }
 .content-intro p{
     font-family: Arial, Helvetica, sans-serif;
-    color: #545D7A;
+    color: #fff;
     font-size:20px;
     padding-top: 20px;
     width:80%;
@@ -42,7 +52,7 @@
 }
 @media screen and (max-width: 600px) {
     .content{
-        width:100%;
+        width:90%;
         height: auto;
         display:flex;
         justify-content:center;
@@ -51,8 +61,8 @@
     
     }
     .content-img img{
-        width: 15em;
-        height: 15em; 
+        width: 100%;
+        margin: 2rem 2rem 0 0;
     }
     
   } 

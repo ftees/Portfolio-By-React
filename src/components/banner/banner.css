@@ -18,37 +18,38 @@
 }
 .intro-typed{
     font-family: 'Pacifico', cursive;
-    color: #fff;
+    color: #66fcf1;
     font-size:60px;
     
 }
 .btn-download a{
     text-decoration:none;
-    color: #DF184A;
+    color: #fff;
 }
 .btn-download{
     width: 200px;
     height: 50px;
     font-weight: bold;
-    color: #DF184A;
-    background-color: #fff;
-    border: 3px solid #DF184A;
+
+    background:none;
+    border: 3px solid #66fcf1;
     margin-top: 2rem;
 }
 .btn-download:hover{
-    background-color: #DF184A;
-    color: #fff;
-    border: 3px solid #fff;
+    background-color: #66fcf1;
+    color: #000;
+    
 }
 .btn-download:hover a{
-    color: #fff;
+    color: #000;
+    
     
 }
 
 @media screen and (max-width: 660px) {
     .intro-typed{
         font-family: 'Pacifico', cursive;
-        color: #fff;
+        color: #66fcf1;
         font-size:20px; 
     }
     .btn-download{
@@ -56,9 +57,7 @@
         height: 40px;
         font-weight: bold;
         font-size: 13px;
-        color: #DF184A;
-        background-color: #fff;
-        border: 3px solid #DF184A;
+        
         
     }
     .intro{
@@ -70,7 +69,7 @@
   @media screen and (max-width:  992px ) {
     .intro-typed{
         font-family: 'Pacifico', cursive;
-        color: #fff;
+        color: #66fcf1;
         font-size:30px;
         
     }
@@ -82,9 +81,6 @@
         width: 140px;
         height: 40px;
         font-weight: bold;
-        color: #DF184A;
-        background-color: #fff;
-        border: 3px solid #DF184A;
         font-size: 16px;
     }
     

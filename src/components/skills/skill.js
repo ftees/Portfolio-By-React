@@ -36,7 +36,7 @@ const skill = () => {
               {skills.map(item =>
                   <div className="skill">
                   <h3>{item.name}</h3>
-                <div className="skill-bar"><ProgressBar completed={item.percent} height={22} isLabelVisible={false}>HTML</ProgressBar></div>
+                <div className="skill-bar"><ProgressBar completed={item.percent} bgColor="#45a29e" height={22} isLabelVisible={false}></ProgressBar></div>
                 </div>
               )}
              </div>

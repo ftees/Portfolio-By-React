@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #F7F8FC;
+  background-color: #0b0c10;
 }
 *{
   margin: 0;
@@ -9,7 +9,7 @@
 }
 h2{
   font-family: 'Pacifico', cursive;
-  color: #10182F;
+  color: #66fcf1;
   font-size:42px;
   padding-bottom: 1em;
   font-style: italic;

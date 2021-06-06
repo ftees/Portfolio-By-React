@@ -1,5 +1,7 @@
 .project-contain{
     margin-top: 2rem;
+    padding: 2rem;
+    background-color: #1f2833;
 }
 .list-projects{
     width:100%;
@@ -8,7 +10,10 @@
     align-items:center;
     justify-content:space-around;
     background-size: cover;
-    margin-top: 2rem;
+    margin-top: 1rem;
+}
+.projects h5{
+    color: #1f2833;
 }
 .project{
     width: 30%;
@@ -16,8 +21,8 @@
     text-align: center;
     border-radius: 20px;
     background: #ffffff;
-    box-shadow:  23px 23px 18px #d9d9d9,
-             -23px -23px 18px #ffffff;
+    box-shadow:  10px 10px 10px #d9d9d9;
+    margin-bottom: 2rem;
     
 }
 .project h5{
@@ -42,17 +47,18 @@
 .btn-view{
     width: 150px;
     height: 50px;
-    background-color:#10182F;
-    border: 2px solid #333;
-    border-radius: 20px;
+
+    border: none;
+    background-color:#45a29e;
+    border-radius: 10px;
     position: relative;
     top:-55%;
     display:none;
     
 }
 .btn-view:hover{
-    background-color:#DF184A;
-    border:1px solid #DF184A;
+    background-color:#66fcf1;
+    
 }
 .btn-view a{
     color: #fff;

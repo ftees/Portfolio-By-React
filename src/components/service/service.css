@@ -14,14 +14,12 @@
     height: 400px;
     padding-top: 5rem;
     margin-left: 3rem;
-    border-radius: 15px;
-    background:linear-gradient(#141E30,#243B55);
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background: #45a29e;
 }
 .card:hover{
     transform: rotate(5deg);
     transition:ease-in-out;
-    background-color:#DF184A;
+    background-color:#66fcf1;
 }
 .card img{
     width: 60%;

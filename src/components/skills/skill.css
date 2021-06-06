@@ -1,13 +1,19 @@
 .skill-contain{
     margin-top: 4rem;
-    background-color:#F7F8FC;
     padding-bottom: 6rem;
+    background-color: #1f2833;
 }
 .list-Skills{
     width: 68%;
     margin: auto;
+    background: linear-gradient(
+        159deg
+        ,#2d2d3a 0%,#3d3d49 100%);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     border-radius: 10px;
-    background-color:#10182F;
+}
+.skill-contain h2{
+    padding-top: 2rem;
 }
 .skill{
     width:90%;
