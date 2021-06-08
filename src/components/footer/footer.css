@@ -30,7 +30,7 @@
     color: #66fcf1;
 }
 .social a:hover{
-    font-size: 20px;
+    color: #45a29e;
 }
 
 @media screen  and (max-width: 660px){

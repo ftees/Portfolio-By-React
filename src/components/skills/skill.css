@@ -5,7 +5,7 @@
 .list-Skills{
     width: 68%;
     margin: auto;
-    background-image: url('https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28313.jpg?size=626&ext=jpg');
+    background-image: url('https://wallsdesk.com/wp-content/uploads/2016/11/Black-Wood-Wallpapers.jpg');
     background-position: center;
     background-size: cover;
     box-shadow: rgb(31, 124, 116) 0px 20px 30px -10px;
@@ -16,11 +16,10 @@
 }
 .skill{
     width:90%;
-    padding-top: 2rem;
+    padding: 2rem 0;
     display: flex;
     text-align: center;
     justify-content: space-between;
-    padding-bottom: 2rem;
 }
 .skill h3{
     margin-left: 2rem;
@@ -31,7 +30,10 @@
 }
 @media screen and (max-width: 600px) {
     .skill h3{
-        font-size: 15px;
+        font-size: 16px;
         margin-left: 1rem;
+    }
+    .skill-bar{
+        width: 60%;
     }
 }

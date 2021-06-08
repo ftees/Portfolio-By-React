@@ -22,11 +22,7 @@
 
 
 @media screen and (max-width: 660px) {
-    .intro-typed{
-        font-family: 'Pacifico', cursive;
-        color: #66fcf1;
-        font-size:20px; 
-    }
+    
     .btn-download{
         width: 120px;
         height: 40px;

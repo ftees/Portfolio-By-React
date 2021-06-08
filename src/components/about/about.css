@@ -34,6 +34,7 @@
 .intro-typed{
     font-family: 'Pacifico', cursive;
     color: #66fcf1;
+    text-shadow: 3px 5px rgba(0,0,0,0.7);
     font-size:18px;
     
     
@@ -52,10 +53,10 @@
     line-height: 50px;
 }
 .content-intro p{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #fff;
     font-style: italic;
-    font-size:20px;
+    font-size:18px;
     padding-top: 20px;
     width:80%;
     margin:auto;
@@ -92,6 +93,9 @@
     .content-img img{
         width: 100%;
         margin: 2rem 2rem 0 0;
+    }
+    .content-img{
+        height: 250px;
     }
     .btn-download{
         width: 120px;
