@@ -31,14 +31,16 @@ const skill = () => {
   ]
     return (
         <div className="skill-contain">
+          <div className="format-div skill-content">
             <h2>Skills</h2>
-            <div className="list-Skills">
+            <div className="list-Skills bg-sub">
               {skills.map(item =>
                   <div className="skill">
                   <h3>{item.name}</h3>
-                <div className="skill-bar"><ProgressBar completed={item.percent} bgColor="#45a29e" height={22} isLabelVisible={false}></ProgressBar></div>
+                <div className="skill-bar"><ProgressBar completed={item.percent} bgColor="#1689c7" height={22} isLabelVisible={false}></ProgressBar></div>
                 </div>
               )}
+             </div>
              </div>
         </div>
     )

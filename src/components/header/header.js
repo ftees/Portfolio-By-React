@@ -4,7 +4,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 const header = () => {
   return (
     <div>
-      <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <button
           className="navbar-toggler"
           type="button"

@@ -1,14 +1,10 @@
-.service{
-    background-image: url('https://wallsdesk.com/wp-content/uploads/2016/11/Black-Wood-Wallpapers.jpg');
-    background-position: center;
-    background-size: cover;
-}
+
 .service h2{
-    color: #66fcf1;
-    padding-top: 2rem;
+    color: #000;
+    padding-top: 10rem;
 }
 .listContent{
-    width: 80%;
+    width: 90%;
     margin:auto;
     display:flex;
     justify-content:space-around;
@@ -16,38 +12,43 @@
     padding: 2rem 0 4rem 0;
 }
 .card{
-    width: 280px;
-    height: 380px;
+    width: 28%;
+    height: 350px;
+    border-radius: 10px;
+    background-color: #fff;
     padding-top: 5rem;
-    background: #45a29e;
+    border: none;
+    
 }
 .card:hover{
     transform: rotate(5deg);
     transition:ease-in-out;
-    background-color:#66fcf1;
+    box-shadow: rgb(14, 19, 18) 0px 20px 30px -10px;
 }
 .card img{
-    width: 60%;
+    width: 40%;
     margin:auto;
 }
 .card p{
     font-family: 'Pacifico', cursive;
-    color: #fff;
+    color: #000;
     font-size: 21px;
 }
 @media screen and (max-width: 600px){
+    .service h2{
+        color: #000;
+        padding-top: 300px;
+    }
    .listContent{
        display: flex;
        flex-direction:column;
    }
    .card{
+       width: 80%;
        margin: 2rem 0;
    }
 }
 @media screen and (max-width: 1024px){
     
-    .card{
-        width: 250px;
-        height: 350px;
-    }
+
  }

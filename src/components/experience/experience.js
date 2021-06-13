@@ -25,7 +25,7 @@ const experience = () => {
     ]
     console.log(expList);
     return (
-        <div className="experience-contain">
+        <div className="experience-contain bg-sub">
             <h2>Experience</h2>
             <div className="timelines">
              <VerticalTimeline>

@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #0b0c10;
+  background-color: #f9f9ff;
 }
 *{
   margin: 0;
@@ -9,9 +9,12 @@
 }
 h2{
   font-family: 'Pacifico', cursive;
-  color: #66fcf1;
+  color: #000000;
   font-size:42px;
   padding-bottom: 1em;
-  text-shadow: 3px 5px rgba(0,0,0,0.7);
+  text-shadow: 3px 6px rgba(0,0,0,0.1);
   font-style: italic;
+}
+.bg-sub{
+  background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
 }

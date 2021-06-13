@@ -6,7 +6,7 @@ import { faCity, faPhone, faAddressCard,fab  } from '@fortawesome/free-solid-svg
 import {faFacebookF, faInstagram , faGoogle, faTwitter} from '@fortawesome/free-brands-svg-icons'
 const footer = () => {
     return (
-        <div className="footer">
+        <div className="footer bg-sub">
             <div className="infomation">
                 <h3>Nguyễn Phạm Tiến</h3>
                 <h4><FontAwesomeIcon icon={faCity} className="icon"/><a>Hà Nội</a></h4>

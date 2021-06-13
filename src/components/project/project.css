@@ -1,6 +1,5 @@
 .project-contain{
     padding: 2rem;
-    background-color: #1f2833;
 }
 .list-projects{
     width:100%;
@@ -20,7 +19,7 @@
     text-align: center;
     border-radius: 20px;
     background: #ffffff;
-    box-shadow:  10px 10px 10px rgb(31, 124, 116);
+    box-shadow:  10px 10px 10px rgb(170, 212, 247);
     margin-bottom: 2rem;
     
 }

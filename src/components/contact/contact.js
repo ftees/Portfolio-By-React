@@ -18,7 +18,7 @@ const contact = () => {
           
             <h2>Contact Me</h2>
             
-            <i className="fab fa-facebook-square"></i>
+            
             <div className="contact-form">
             <form className="contact-form" onSubmit={sendEmail}>
             <label>Name</label><br/>
@@ -30,7 +30,7 @@ const contact = () => {
             <label>Message</label><br/>
             <textarea className="txtMess" name="message" />
             <br/>
-            <input className="btnSubmit" type="submit" value="Send" data-toggle="modal" data-target="#exampleModalCenter" />
+            <input className="btnSubmit bg-sub" type="submit" value="Send" data-toggle="modal" data-target="#exampleModalCenter" />
             </form>
                 </div>               
                 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">

@@ -3,20 +3,12 @@ import "./about.css";
 import Typed from "react-typed";
 const about = () => {
   return (
-    <div className="about">
+    <div className="about bg-sub">
       <h2>About me</h2>
       <div className="content">
         <div className="content-img">
           <img src="av.jpg"></img>
-          <div className="typed">
-            <Typed
-              className="intro-typed"
-              strings={["I'm a Front-End Developer"]}
-              typeSpeed={40}
-              backSpeed={60}
-              loop
-            />
-          </div>
+          
         </div>
         <div className="content-intro">
           <h1>Nguyễn Phạm Tiến</h1>
@@ -31,6 +23,15 @@ const about = () => {
               Download CV
             </a>
           </button>
+          <div className="typed">
+            <Typed
+              className="intro-typed"
+              strings={["I'm a Front-End Developer"]}
+              typeSpeed={40}
+              backSpeed={60}
+              loop
+            />
+          </div>
         </div>
       </div>
     </div>
