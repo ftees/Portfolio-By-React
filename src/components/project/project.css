@@ -46,9 +46,8 @@
 .btn-view{
     width: 150px;
     height: 50px;
-
     border: none;
-    background-color:#45a29e;
+    background-color:#16a6df;
     border-radius: 10px;
     position: relative;
     top:-55%;
@@ -56,7 +55,7 @@
     
 }
 .btn-view:hover{
-    background-color:#66fcf1;
+    background-color:#186ba1;
     
 }
 .btn-view a{
@@ -77,5 +76,9 @@
     }
     .project h4{
         font-size:16px;
+    }
+    .btn-view{
+        position: relative;
+        top:-25%;
     }
 }
