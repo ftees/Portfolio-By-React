@@ -43,7 +43,7 @@ const experience = () => {
                     <p className="date">{exp.date}</p>
                   </VerticalTimelineElement>
                 )
-                })};
+                })}
                 
                </VerticalTimeline> 
                  

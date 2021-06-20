@@ -17,13 +17,27 @@
     border-radius: 10px;
     background-color: #fff;
     padding-top: 5rem;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     border: none;
     
 }
 .card:hover{
-    transform: rotate(5deg);
-    transition:ease-in-out;
-    box-shadow: rgb(14, 19, 18) 0px 20px 30px -10px;
+    transform: translateY(-10px);
+    animation-name: down;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes down{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-25px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 .card img{
     width: 40%;

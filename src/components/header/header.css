@@ -5,5 +5,18 @@
 }
 
 .nav-link:hover{
-  border-bottom: 2px solid #0fa8d6;
+   animation-name: bordered;
+   animation-duration: 2s;
+}
+
+@keyframes bordered{
+  0%{
+    border-bottom: 2px solid #0fa8d6;
+  }
+  50%{
+    border-bottom: 2px solid #88f3ff;
+  }
+  100%{
+    border-bottom: 2px solid #0fa8d6;
+  }
 }
