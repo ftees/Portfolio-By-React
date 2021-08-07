@@ -7,7 +7,7 @@ const about = () => {
       <h2>About me</h2>
       <div className="content">
         <div className="content-img">
-          <img src="av.jpg"></img>
+          <img src="av.jpg" alt="avt"></img>
           
         </div>
         <div className="content-intro">
@@ -19,7 +19,7 @@ const about = () => {
           <p>Date of birth: 08/10/1999</p>
           <p>Location: Ha Noi, Vietnam</p>
           <button className="btn btn-download">
-            <a href="FU_NguyenPhamTien_Java_FPTSoftwareHoaLac.pdf">
+            <a href="Nguyen-Pham-Tien-CV.pdf">
               Download CV
             </a>
           </button>

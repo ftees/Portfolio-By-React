@@ -43,18 +43,16 @@ label{
     font-size: 18px;
     font-weight: bold;
     border: none;
+    background-color: #766dff;
     border-radius:10px;
     margin-top:2rem;
     color:#fff;
     margin-bottom: 2rem;
-    
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
     
 }
 .btnSubmit:hover{
-    background: #7F7FD5;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background-color: #5d52f5;
 }
 
 @media screen and (max-width: 660px){

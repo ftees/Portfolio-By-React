@@ -64,24 +64,25 @@
 }
 .btn-download a{
     text-decoration:none;
-    color: #000;
+    color: #fff;
 }
 .btn-download{
     width: 200px;
     height: 50px;
     font-weight: bold;
-    border: none;
-    background: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
     margin-top: 2rem;
+    border: none;
+    background-color: #766dff;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
 }
 .btn-download:hover{
-    
+    background-color: #5d52f5;
+}
+.btn-download:active{
     background: -webkit-linear-gradient(270deg, #766dff 0%, #88f3ff 100%);
+}
+
     
-}
-.btn-download:hover a{
-    color: #000; 
-}
 @media screen and (max-width: 600px) {
     .content{
         width:90%;

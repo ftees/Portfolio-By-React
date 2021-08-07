@@ -24,7 +24,7 @@ const project = () => {
       <div className="list-projects container">
         {projects.map((item) => (
           <div className="project">
-            <img className="project-background" src={item.img}></img>
+            <img className="project-background" alt="" src={item.img}></img>
 
             <h5>{item.title}</h5>
             <button className="btn-view">

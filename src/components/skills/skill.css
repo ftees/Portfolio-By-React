@@ -14,21 +14,23 @@
 }
 .skill{
     width:90%;
-    padding: 2rem 0;
+    padding: 1.3rem 0;
     display: flex;
     text-align: center;
     justify-content: space-between;
 }
 .skill h3{
     margin-left: 2rem;
+    font-size: 1.5rem;
     color: #fff;
 }
 .skill-bar{
     width: 68%;
+    
 }
 @media screen and (max-width: 600px) {
     .skill h3{
-        font-size: 16px;
+        font-size: 1rem;
         margin-left: 1rem;
     }
     .skill-bar{
